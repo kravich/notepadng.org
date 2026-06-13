@@ -45,12 +45,43 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
+  margin: 6px;
   display: inline-block;
   padding: 10px;
   color: white;
   background-color: grey;
+  width: 200px;
 }
 
 .button:hover {
   background-color: black;
+}
+
+.button::before {
+  content: "";
+  width: 1.3em;
+  height: 1.3em;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: center;
+}
+
+.flathub::before {
+  background: url("static/assets/logo/flathub-logo-mini.svg") no-repeat 0 0;
+  background-size: 1.3em 1.3em;
+}
+
+.snap::before {
+  background: url("static/assets/logo/snapcraft-favicon.png") no-repeat 0 0;
+  background-size: 1.3em 1.3em;
+}
+
+.deb::before {
+  background: url("static/assets/logo/package.svg") no-repeat 0 0;
+  background-size: 1.3em 1.3em;
+}
+
+.github::before {
+  background: url("static/assets/logo/GitHub_Invertocat_Black.svg") no-repeat 0 0;
+  background-size: 1.3em 1.3em;
 }
