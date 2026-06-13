@@ -38,6 +38,9 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 800px;
   text-align: center;
   background-color: lightblue;
+  padding: 32px;
+  font-size: 14pt;
+  font-family: "Helvetica";
 }
 
 #container > * {
@@ -50,7 +53,7 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   color: white;
   background-color: grey;
-  width: 200px;
+  width: 240px;
 }
 
 .button:hover {
