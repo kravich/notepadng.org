@@ -60,6 +60,28 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+a {
+  color: var(--medium-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--strong-accent);
+}
+
+a:visited {
+  color: var(--medium-accent);
+}
+
+a:visited:hover {
+  color: var(--strong-accent);
+}
+
+a:before {
+  content: "🔗";
+  font-size: 12pt;
+}
+
 #footer {
   background-color: var(--strong-accent);
   background-clip: text;
@@ -103,8 +125,16 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
 }
 
+.button:visited {
+  color: white;
+}
+
 .button:hover {
   background-color: var(--strong-accent);
+}
+
+.button:visited:hover {
+  color: white;
 }
 
 .button::before {
