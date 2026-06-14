@@ -28,6 +28,14 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Main styles */
 
+:root {
+  --primary-color: #6fcdcd;
+  --strong-accent: #183535;
+  --medium-accent: #338080;
+  --light-accent: #42bdbd;
+  --bg-color: #d0e2e2;
+}
+
 #wrapper {
   width: 100%;
   background: url("static/assets/bg.png");
@@ -43,7 +51,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #sheet {
   padding: 32px;
-  background-color: #d0e2e2;
+  background-color: var(--bg-color);
   box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 20%);
   border-radius: 5px;
 }
@@ -53,7 +61,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  background-color: #183535;
+  background-color: var(--strong-accent);
   background-clip: text;
   color: transparent;
   text-shadow: rgba(240,240,240,0.5) 0.5px 1px 1px;
@@ -89,14 +97,14 @@ p, h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 10px;
   color: white;
-  background-color: #347f7f;
+  background-color: var(--medium-accent);
   width: 240px;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .button:hover {
-  background-color: #183535;
+  background-color: var(--strong-accent);
 }
 
 .button::before {
