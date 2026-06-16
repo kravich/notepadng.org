@@ -1,4 +1,4 @@
-/* Minimal CSS Reset */
+﻿/* Minimal CSS Reset */
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -29,11 +29,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Main styles */
 
 :root {
-  --primary-color: #6fcdcd;
-  --strong-accent: #183535;
-  --medium-accent: #338080;
-  --light-accent: #42bdbd;
-  --bg-color: #d0e2e2;
+  --primary-color: #808080;
+  --strong-accent: #262626;
+  --medium-accent: #595959;
+  --light-accent: #b3b3b3;
+  --bg-color: #ffffff;
 }
 
 #wrapper {
@@ -83,7 +83,7 @@ a:before {
 }
 
 #footer {
-  background-color: var(--strong-accent);
+  background-color: var(--medium-accent);
   background-clip: text;
   color: transparent;
   text-shadow: rgba(240,240,240,0.5) 0.5px 1px 1px;
@@ -119,7 +119,7 @@ a:before {
   display: inline-block;
   padding: 10px;
   color: white;
-  background-color: var(--medium-accent);
+  background-color: var(--light-accent);
   width: 240px;
   text-decoration: none;
   border-radius: 5px;
@@ -130,7 +130,7 @@ a:before {
 }
 
 .button:hover {
-  background-color: var(--strong-accent);
+  background-color: var(--medium-accent);
 }
 
 .button:visited:hover {
